@@ -1,0 +1,347 @@
+
+
+header{
+  background-color: #895737;
+    border: none;
+    display: flex;
+    padding: 10px;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.Cafe{
+  margin-left: 240px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 80px;
+   }
+
+body{
+    background-color: none;
+    margin: 2;
+    padding: 2;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 24px;
+    background-color: #5e3023;
+  }
+.logo{
+  width: 120px;
+  border-radius: 20px;
+}
+.logo:hover{
+    width: 130px;
+    box-shadow: 2px 2px 2px 2px ;
+    box-shadow: color( red green blue);
+}
+.menu li{
+  display: inline;
+  margin: 8px;
+  justify-content: right;
+  color: white;
+}
+.cardapio{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4px;
+    color: white;
+}
+
+.conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 600px;
+  margin-top: 4px;
+  color: white;
+}
+.destaque1{
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  margin: 5px 5px 5px 0px;
+  color: white;
+  background-image: url(lanchefundu.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.destaque2{
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  height: 100%;
+  margin: 5px;
+  color: white;
+  background-image: url(caaafeee.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.destaque3{
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(especial.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.destaque1:hover{
+  width: 32%;
+  transition-duration: 0.5s;
+}
+.destaque2:hover{
+  width: 42%;
+  transition-duration: 0.5s;
+}
+.destaque3:hover{
+  width: 32%;
+  transition-duration: 0.5s;
+}
+
+
+.textinho{
+  width: 100%;
+  word-break: break-all;
+  color: white;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+h3{
+  font-size: 34px;
+  text-shadow: 2px 2px black;
+}
+/*sobre nos*/
+.sobre{
+  color: white;
+  margin: 0;
+  padding: 0;
+
+}
+.textosobre{
+  margin-top: 50px;
+}
+/*aqui tambem*/
+/*aqui ja é cafes*/
+.coffes{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(cafe3.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.coffes1{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(cafe1.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.coffes2{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(caaafeee.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*cafe acaba aqui*/
+/*chas*/
+.chas{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(cahdevo.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.chas1{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(cha2.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.chas2{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(chagelado.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*cha*/
+/*salgados*/
+.salgado{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(salgados.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.salgado1{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(coxinha.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.salgado2{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(tortafrango.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*salgados*/
+/*sucos*/
+.sucos{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(sucomaca.webp) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.sucos1{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(sucolaranja.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.sucos2{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(sucomelancia.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*sucos*/
+/*bolos*/
+.bolo{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(bolodepotemaracuja.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bolo1{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(bolodepoteninhooreo.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bolo2{
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  margin: 5px 0px 5px 5px;
+  color: white;
+  background-image: url(bolodepotebrigadeiroprestigio.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*bolo*/
+/*promocao*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+  
+  /* visited link */
+  a:visited {
+    color: white;
+}
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+}
+  
+  /* selected link */
+  a:active {
+    color: green; 
+}
